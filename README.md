@@ -123,6 +123,14 @@ volumes:
   mysql-data:
 ```
 
+<<<<<<< Updated upstream
+=======
+**Important Note:**
+
+- If you run `docker compose up`, you have access to the database.
+
+
+>>>>>>> Stashed changes
 ### **Installation**
 
 1. Clone the repository:
@@ -153,8 +161,11 @@ volumes:
       }@localhost:3306/${MYSQL_DATABASE}?
       connect_timeout=10"
       ```
+<<<<<<< Updated upstream
       **Important:**
       - Add and run `docker compose up` in this part.
+=======
+>>>>>>> Stashed changes
 
 4. Generate the Prisma client:
    ```bash
